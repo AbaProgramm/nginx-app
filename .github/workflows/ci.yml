@@ -31,7 +31,7 @@ jobs:
       - name: Checkout gitops repo
         uses: actions/checkout@v4
         with:
-          repository: <твой-username>/k8s-gitops-training
+          repository: AbaProgramm/k8s-gitops
           token: ${{ secrets.GITOPS_TOKEN }}
           path: gitops-repo
 
